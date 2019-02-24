@@ -1,2 +1,7 @@
 
 remote_theme: pmarsceill/just-the-docs
+title: Data Science
+search_enabled: true
+aux_links:
+  "View GitHub Repository":
+    - "//github.com/xhq318/839"
