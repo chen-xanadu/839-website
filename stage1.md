@@ -20,7 +20,6 @@ Information extraction from natural text
 
 ## Document Directories
 
-k
 --- 
 
 ## Code Directories
