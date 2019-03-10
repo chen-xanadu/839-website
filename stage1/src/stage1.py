@@ -18,8 +18,8 @@ from sklearn.tree import DecisionTreeClassifier
 from feature_extraction import extract_features, get_feature_names
 from text_processing import get_instances
 
-TRAIN_DOCS_DIR = './documents/set_I'
-TEST_DOCS_DIR = './documents/set_J'
+TRAIN_DOCS_DIR = '../documents/set_I'
+TEST_DOCS_DIR = '../documents/set_J'
 
 instances = []
 for i in range(200):
