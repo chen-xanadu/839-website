@@ -1,7 +1,10 @@
 
 remote_theme: pmarsceill/just-the-docs
+
+exclude: ["stage1/", "README.md"]
+
 title: Data Science
 search_enabled: true
 aux_links:
   "View GitHub Repository":
-    - "//github.com/xhq318/839"
+    - "//github.com/chen-xanadu/cs839-website"

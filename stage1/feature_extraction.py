@@ -11,7 +11,8 @@ EN_PREPOSITIONS = ['of', 'in', 'to', 'for', 'with', 'on', 'at', 'from', 'by',
                    'about', 'as', 'into', 'like', 'through', 'after', 'over',
                    'between', 'out', 'against', 'during', 'without', 'before',
                    'under', 'around', 'among']
-EN_TITLES = ['Mr.', 'Dr.', 'Mrs.', 'Miss', 'Lt.', 'Captain', 'Lord', 'Sir', 'Jr.', 'Dr']
+EN_TITLES = ['Mr.', 'Dr.', 'Mrs.', 'Miss', 'Lt.', 'Captain', 'Lord', 'Sir',
+             'Jr.', 'Dr', 'King', 'Detective']
 EN_DICTIONARY = words.words()
 EN_STOPWORDS = stopwords.words('english')
 
@@ -44,10 +45,15 @@ def feature_avg_word_len(ins: Instance) -> int:
 
 def feature_preceding_preposition(ins: Instance) -> str:
     """Return the preceding preposition (on, at, in, ...) if exists."""
-    if ins.pre and ins.pre[-1].lower() in EN_PREPOSITIONS:
-        return ins.pre[-1].lower()
+    w = _prev_non_title_cased_word(ins.pre)
+    if w in EN_PREPOSITIONS:
+        return w
     else:
         return ''
+    # if ins.pre and ins.pre[-1].lower() in EN_PREPOSITIONS:
+    #     return ins.pre[-1].lower()
+    # else:
+    #     return ''
 
 
 def feature_has_title_prefix(ins: Instance) -> bool:
@@ -137,6 +143,12 @@ def feature_term_pos(ins: Instance) -> str:
         return ''
 
 
+def feature_has_punctuation(ins: Instance) -> bool:
+    """Return true if the terms contains '.' or '-'"""
+    all_chars = ''.join(ins.term)
+    return any(p in all_chars for p in ['.', '-'])
+
+
 def feature_has_stopwords(ins: Instance) -> bool:
     """Return true if the terms contains common English stopwords (nltk.corpus.stopwords)."""
     return any(w.lower() in EN_STOPWORDS for w in ins.term)
@@ -152,18 +164,22 @@ def feature_has_pronoun_nearby(ins: Instance) -> bool:
     return 'his' in ins.post_pos[:4] or 'her' in ins.post_pos[:4]
 
 
-def feature_is_dictionary_words(ins: Instance) -> bool:
+def feature_has_dictionary_word(ins: Instance) -> bool:
     """Return true if the term contains a common English word (nltk.corpus.words)."""
     return any(w.lower() in EN_DICTIONARY for w in ins.term)
 
 
+def feature_is_all_dictionary_words(ins: Instance) -> bool:
+    """Return true if the term contains a common English word (nltk.corpus.words)."""
+    return all(w.lower() in EN_DICTIONARY for w in ins.term)
+
+
 def get_feature_names() -> List[str]:
-    return ['n_words', 'avg_word_len', 'has_title_prefix', 'contains_title',
-            'has_preceding_article', 'contains_article', 'has_possessive_suffix',
-            'has_following_parenthesis', 'is_in_parenthesis', 'is_beginning_of_sentence',
-            'has_preceding_named', 'has_stopwords', 'has_following_article',
-            'has_verb_nearby', 'has_pronoun_nearby', 'is_dictionary_words',
-            'preceding_preposition', 'following_wh_word', 'prev_word_suffix',
+    return ['n_words', 'avg_word_len', 'has_title_prefix', 'contains_title', 'has_preceding_article',
+            'contains_article', 'has_possessive_suffix', 'has_following_parenthesis', 'is_in_parenthesis',
+            'is_beginning_of_sentence', 'has_preceding_named', 'has_punctuation', 'has_stopwords',
+            'has_following_article', 'has_verb_nearby', 'has_pronoun_nearby', 'has_dictionary_word',
+            'is_all_dictionary_words', 'preceding_preposition', 'following_wh_word', 'prev_word_suffix',
             'term_pos', 'next_word_pos', 'prev_word_pos', 'label']
 
 
@@ -179,11 +195,13 @@ def extract_features(ins: Instance) -> List[object]:
                     feature_is_in_parenthesis,
                     feature_is_beginning_of_sentence,
                     feature_has_preceding_named,
+                    feature_has_punctuation,
                     feature_has_stopwords,
                     feature_has_following_article,
                     feature_has_verb_nearby,
                     feature_has_pronoun_nearby,
-                    feature_is_dictionary_words,
+                    feature_has_dictionary_word,
+                    feature_is_all_dictionary_words,
                     feature_preceding_preposition,
                     feature_following_wh_word,
                     feature_prev_word_suffix,
