@@ -18,11 +18,19 @@ Information extraction from natural text
 
 ---
 
-## Document Directories
+## Documents
+
+### Original
+
+### Marked
+
+### Set I
+
+### Set J
 
 --- 
 
-## Code Directories
+## Code
 
 ---
 
@@ -31,3 +39,5 @@ Information extraction from natural text
 ---
 
 ## Download
+
+[Download](http://example.com/){: .btn }
