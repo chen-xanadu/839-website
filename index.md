@@ -31,8 +31,8 @@ Completed
 
 ### Stage 1: [Information extraction from natural text](stage1.md)
 {: .d-inline }
-In Progress
-{: .label .label-yellow }
+New
+{: .label .label-purple }
 
 ### Stage 2: Crawling and extracting structured data from Web pages
 {: .text-grey-lt-300 }

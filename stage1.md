@@ -20,10 +20,10 @@ Information extraction from natural text
 
 ## Documents
 
-- [Original](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/original): 362 text files that contain movie plots extracted from [Kaggle Wikipedia Movie Plots dadaset](https://www.kaggle.com/jrobischon/wikipedia-movie-plots).
-- [Marked](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/marked): 362 marked text files.
-- [Set I](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/set_I): development set, which contains the first 200 files from the marked set.
-- [Set J](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/set_J): testing set, which contains the 201<sup>st</sup> to 300<sup>th</sup> files from the marked set.
+- [Original](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/original): 362 text files that contain movie plots extracted from [Wikipedia Movie Plots](https://www.kaggle.com/jrobischon/wikipedia-movie-plots)
+- [Marked](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/marked): 362 marked text files
+- [Set I](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/set_I): development set, which contains the first 200 files from the marked set
+- [Set J](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/set_J): testing set, which contains the 201<sup>st</sup> to 300<sup>th</sup> files from the marked set
 
 --- 
 
