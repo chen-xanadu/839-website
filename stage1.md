@@ -20,23 +20,23 @@ Information extraction from natural text
 
 ## Documents
 
-- [Original](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/original): 362 text files that contain movie plots extracted from [Wikipedia Movie Plots](https://www.kaggle.com/jrobischon/wikipedia-movie-plots)
-- [Marked](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/marked): 362 marked text files
-- [Set I](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/set_I): development set, which contains the first 200 files from the marked set
-- [Set J](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/set_J): testing set, which contains the 201<sup>st</sup> to 300<sup>th</sup> files from the marked set
+- [**Original**](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/original): 362 text files that contain movie plots extracted from [Wikipedia Movie Plots](https://www.kaggle.com/jrobischon/wikipedia-movie-plots)
+- [**Marked**](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/marked): see [README](https://github.com/chen-xanadu/cs839-website/blob/master/stage1/documents/marked/README.md) for markup rules
+- [**Set I**](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/set_I): development set, which contains the first 200 files from the marked set
+- [**Set J**](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/documents/set_J): testing set, which contains the 201<sup>st</sup> to 300<sup>th</sup> files from the marked set
 
 --- 
 
 ## Source Code
 
-- [The source code directory](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/src)
-- [A Jupyter notebook](https://nbviewer.jupyter.org/github/chen-xanadu/cs839-website/blob/master/stage1/src/stage1.ipynb) which describes the steps in our workflow and shows the output of each step.
+- [**The source code directory**](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/src)
+- [**A Jupyter notebook**](https://nbviewer.jupyter.org/github/chen-xanadu/cs839-website/blob/master/stage1/src/stage1.ipynb) which describes the steps in our workflow and shows the output of each step.
 
 ---
 
 ## Report
 
-The final report is available at [here](https://github.com/chen-xanadu/cs839-website/blob/master/stage1/stage1_report.pdf).
+The final report is available at [**here**](https://github.com/chen-xanadu/cs839-website/blob/master/stage1/stage1_report.pdf).
 
 ---
 
