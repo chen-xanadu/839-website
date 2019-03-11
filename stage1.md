@@ -36,7 +36,7 @@ Information extraction from natural text
 
 ## Report
 
-The final report is available at [here](https://chen-xanadu.github.io/cs839-website/stage1/stage1_report.pdf).
+The final report is available at [here](https://github.com/chen-xanadu/cs839-website/blob/master/stage1/stage1_report.pdf).
 
 ---
 
