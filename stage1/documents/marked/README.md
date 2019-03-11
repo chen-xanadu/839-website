@@ -1,7 +1,7 @@
 In this stage, the entity we tried to extract from the texts is "person name".
 We put `<p>` ahead of the person name and `</p>` after it. So the marked person name should look like `<p>....</p>`.
 
-If a name contains multiple words, we marked them seperately.
+If a name contains multiple words, we marked them separately.
 
 ```
 Ex. 1
