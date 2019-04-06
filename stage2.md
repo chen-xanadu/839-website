@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Project Stage 1
+title: Project Stage 2
 nav_order: 3
 ---
 
 # Project Stage 2
 {: .no_toc }
 
-Information extraction from natural text
+Crawling and extracting structured data from Web pages
 {: .fs-5 .fw-300 }
 
 ---
