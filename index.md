@@ -31,11 +31,15 @@ Completed
 
 ### Stage 1: [Information extraction from natural text](stage1.md)
 {: .d-inline }
-New
-{: .label .label-purple }
+Completed
+{: .label .label-green }
 
-### Stage 2: Crawling and extracting structured data from Web pages
-{: .text-grey-lt-300 }
+<p></p>
+
+### Stage 2: [Crawling and extracting structured data from Web pages](stage2.md)
+{: .d-inline }
+In Progress
+{: .label .label-yellow }
 
 ### Stage 3: Entity matching
 {: .text-grey-lt-300 }
