@@ -30,7 +30,7 @@ We extracted movie information from [IMDb](https://www.imdb.com/) and [Metacriti
 
 The crawler codes that are used to extract data from the two websites are available in:
 
-- Code directory
+- [**Code directory**](https://github.com/chen-xanadu/cs839-website/tree/master/stage2/src)
 
 ---
 
