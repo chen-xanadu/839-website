@@ -28,7 +28,7 @@ We extracted movie information from [IMDb](https://www.imdb.com/) and [Metacriti
 
 ## Source Code
 
-The crawler codes that are used to extract data from the two websites are available in:
+The crawler code to extract data from the two websites is available in:
 
 - [**Code directory**](https://github.com/chen-xanadu/cs839-website/tree/master/stage2/src)
 
@@ -36,4 +36,4 @@ The crawler codes that are used to extract data from the two websites are availa
 
 ## Report
 
-The final report is available [**here**](https://chen-xanadu.github.io/cs839-website/reports/stage1_report.pdf).
+The final report is available [**here**](https://chen-xanadu.github.io/cs839-website/reports/stage2_report.pdf).

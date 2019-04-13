@@ -27,7 +27,7 @@ Our entity type is **movie information**.
 | genres | The genres of the movie, separated by commas |
 | director | The directors of the movie, separated by commas |
 | starring | The main cast of the movie, separated by commas |
-| countries | The places where the production companies for that title are based in, separated by commas |
+| countries | The places where the production companies for the movie are based in, separated by commas |
 | languages | The languages that are spoken in the movie, separated by commas |
 | production company | The companies that produced the movie, separated by commas |
 | writers | The writers of the movie, as appeared in the credit, separated by commas |

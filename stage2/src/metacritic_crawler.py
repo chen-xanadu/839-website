@@ -64,7 +64,7 @@ pool = ThreadPool()
 
 base_url = 'https://www.metacritic.com/browse/movies/score/metascore/all?sort=desc&view=condensed&page={}'
 
-for i in range(1):
+for i in range(60):
     result = requests.get(base_url.format(i), headers={'User-Agent': CUSTOM_USER_AGENT})
 
     soup = BeautifulSoup(result.content, 'html.parser')
