@@ -38,8 +38,8 @@ Completed
 
 ### Stage 2: [Crawling and extracting structured data from Web pages](stage2.md)
 {: .d-inline }
-In Progress
-{: .label .label-yellow }
+New
+{: .label .label-purple }
 
 ### Stage 3: Entity matching
 {: .text-grey-lt-300 }
