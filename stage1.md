@@ -10,6 +10,11 @@ nav_order: 2
 Information extraction from natural text
 {: .fs-5 .fw-300 }
 
+
+[View report](https://chen-xanadu.github.io/cs839-website/reports/stage1_report.pdf){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Download as zip](https://github.com/chen-xanadu/cs839-website/raw/master/stage1/stage1.zip){: .btn .fs-5 .mb-4 .mb-md-0 }
+
+
+---
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -32,7 +37,7 @@ Information extraction from natural text
 - [**The source code directory**](https://github.com/chen-xanadu/cs839-website/tree/master/stage1/src)
 - [**A Jupyter notebook**](https://nbviewer.jupyter.org/github/chen-xanadu/cs839-website/blob/master/stage1/src/stage1.ipynb) which describes the steps in our workflow and shows the output of each step.
 
----
+<!-- ---
 
 ## Report
 
@@ -42,4 +47,4 @@ The final report is available [**here**](https://chen-xanadu.github.io/cs839-web
 
 ## Download
 
-[Download zip file](https://github.com/chen-xanadu/cs839-website/raw/master/stage1/stage1.zip){: .btn } 
+[Download zip file](https://github.com/chen-xanadu/cs839-website/raw/master/stage1/stage1.zip){: .btn }  -->
