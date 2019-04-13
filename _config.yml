@@ -1,7 +1,7 @@
 
 remote_theme: pmarsceill/just-the-docs
 
-exclude: ["stage1/", "README.md"]
+exclude: ["stage1/", "stage2/", "README.md"]
 
 title: Data Science
 search_enabled: true

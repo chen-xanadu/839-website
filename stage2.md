@@ -20,14 +20,20 @@ Crawling and extracting structured data from Web pages
 
 ## Data
 
+We extracted movie information from [IMDb](https://www.imdb.com/) and [Metacritic](https://www.metacritic.com/). The schema of the final tables is explained in this README.
+
+- Data directory 
+
 ---
 
 ## Source Code
+
+The crawler code used to extract data from the two websites is available in:
+
+- Code directory
 
 ---
 
 ## Report
 
----
-
-## Download
+The final report is available [**here**](https://chen-xanadu.github.io/cs839-website/reports/stage1_report.pdf).
