@@ -22,7 +22,7 @@ Our entity type is **movie information**.
 | id | The index assigned to each movie, starting from 1 for each table |
 | title | The name of the movie |
 | release year | The year in which the movie was released |
-| rating | The rating of the movie (e.g. *PG-13*, *R*) |
+| rating | The rating of the movie (e.g. PG-13, R) |
 | runtime | The length of the movie |
 | genres | The genres of the movie, separated by commas |
 | director | The directors of the movie, separated by commas |
@@ -30,6 +30,6 @@ Our entity type is **movie information**.
 | countries | The places where the production companies for that title are based in, separated by commas |
 | languages | The languages that are spoken in the movie, separated by commas |
 | production company | The companies that produced the movie, separated by commas |
-| writers | The writers that appears in the movie credit scene |
+| writers | The writers of the movie, as appeared in the credit, separated by commas |
 | score | The user/media score for the movie |
 
