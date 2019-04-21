@@ -41,8 +41,13 @@ Completed
 New
 {: .label .label-purple }
 
-### Stage 3: Entity matching
-{: .text-grey-lt-300 }
+<p></p>
+
+
+### Stage 3: [Entity matching](stage3.md)
+{: .d-inline }
+In Progress
+{: .label .label-yellow }
 
 ### Stage 4: integrating and performing analysis
 {: .text-grey-lt-300 }
