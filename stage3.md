@@ -12,8 +12,8 @@ Entity matching
 
 ---
 ## Matching Fodors and Zagats
-user ID: group11    
-projectID: try    
-![result screenshot](https://raw.githubusercontent.com/chen-xanadu/cs839-website/master/stage3/result.png)
++ user ID: group11    
++ projectID: try    
++ ![result screenshot](https://raw.githubusercontent.com/chen-xanadu/cs839-website/master/stage3/result.png)
 
 *Under Construction*
