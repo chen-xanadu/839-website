@@ -11,5 +11,7 @@ Entity matching
 {: .fs-5 .fw-300 }
 
 ---
+## Result screenshot
+[result screenshot](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/result.png)
 
 *Under Construction*
