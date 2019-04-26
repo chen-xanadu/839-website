@@ -11,9 +11,31 @@ Entity matching
 {: .fs-5 .fw-300 }
 
 ---
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 ## Matching Fodors and Zagats
-+ user ID: group11    
-+ projectID: try    
-+ ![result screenshot](https://raw.githubusercontent.com/chen-xanadu/cs839-website/master/stage3/result.png)
++ **user ID**: group11    
++ **projectID**: try  
+
+![result screenshot](https://raw.githubusercontent.com/chen-xanadu/cs839-website/master/stage3/result.png)
+
+
+---
+
+## Blocking Results
+
++ **user ID**: group11    
++ **projectID**: stage3
+
+
+---
+
+## Matching Results
 
 *Under Construction*
