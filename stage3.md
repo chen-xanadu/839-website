@@ -21,7 +21,7 @@ Entity matching
 ---
 ## Matching Fodors and Zagats
 + **user ID**: group11    
-+ **projectID**: try  
++ **project ID**: try  
 
 ![result screenshot](https://raw.githubusercontent.com/chen-xanadu/cs839-website/master/stage3/result.png)
 
@@ -31,8 +31,10 @@ Entity matching
 ## Blocking Results
 
 + **user ID**: group11    
-+ **projectID**: stage3
++ **project ID**: stage3
 
+
+![blocking screenshot](https://raw.githubusercontent.com/chen-xanadu/cs839-website/master/stage3/blocking.PNG)
 
 ---
 
