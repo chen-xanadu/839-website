@@ -40,4 +40,11 @@ Entity matching
 
 ## Matching Results
 
++ **user ID**: group11    
++ **project ID**: stage3
+
+![matching screenshot](https://raw.githubusercontent.com/chen-xanadu/cs839-website/master/stage3/matching.PNG)
+
+--- 
+
 *Under Construction*
