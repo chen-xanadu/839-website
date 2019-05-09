@@ -38,16 +38,16 @@ Completed
 
 ### Stage 2: [Crawling and extracting structured data from Web pages](stage2.md)
 {: .d-inline }
-New
-{: .label .label-purple }
+Completed
+{: .label .label-green }
 
 <p></p>
 
 
 ### Stage 3: [Entity matching](stage3.md)
 {: .d-inline }
-In Progress
-{: .label .label-yellow }
+Completed
+{: .label .label-green }
 
 ### Stage 4: integrating and performing analysis
 {: .text-grey-lt-300 }
