@@ -61,8 +61,8 @@ The size of our candidate set is greater than 500.
 pdf file: [pdf file](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/stage3.pdf)  
 400 random samples: [400 random samples](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/sample400.csv)  
 
-![Recall and Precision screenshot](https://raw.githubusercontent.com/chen-xanadu/cs839-website/master/stage3/precision_recall.jpeg)
-Recall = [1.0 - 1.0]
-Precision = [0.98 - 1.00]
+![Recall and Precision screenshot](https://raw.githubusercontent.com/chen-xanadu/cs839-website/master/stage3/precision_recall.jpeg)  
+Recall = [1.0 - 1.0]  
+Precision = [0.98 - 1.00]  
 
 
