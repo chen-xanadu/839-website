@@ -47,7 +47,7 @@ Entity matching
 
 --- 
 
-## Estimating accuracy
+## Estimating Accuracy
 
 Data downloaded from CloudMatcher:
 - [**Prediction list**](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/prediction_list)  
