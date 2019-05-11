@@ -49,20 +49,18 @@ Entity matching
 
 ## Estimating accuracy
 
-+ **user ID**: group11    
-+ **project ID**: stage3
+Data downloaded from CloudMatcher:
+- [**Prediction list**](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/prediction_list)  
+- [**Candidate set**](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/candidate_set)  
+- [**Table A**](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/tableA_meta)  
+- [**Table B**](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/tableB_imdb)  
 
-Prediction list: [Prediction list](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/prediction_list)  
-Candidate set: [Candidate set](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/candidate_set)  
-Table A: [Table A](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/tableA_meta)  
-Table B: [Table B](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/tableB_imdb)  
+The size of our candidate set C is **2098**.  
+- In [**this PDF**](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/stage3.pdf), the density computation is discussed.
+- Since no new blocking rules is added, the final candidate set remains unchanged.
+- Link to the set of 400 tuple pairs that we have sampled and manually labeled: [**sample400.csv**](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/sample400.csv)
 
-The size of our candidate set is greater than 500.  
-pdf file: [pdf file](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/stage3.pdf)  
-400 random samples: [400 random samples](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/sample400.csv)  
-
-![Recall and Precision screenshot](https://raw.githubusercontent.com/chen-xanadu/cs839-website/master/stage3/precision_recall.jpeg)  
+```
 Recall = [1.0 - 1.0]   
 Precision = [0.98 - 1.00]     
-   
-
+```
