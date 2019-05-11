@@ -56,10 +56,10 @@ Data downloaded from CloudMatcher:
 - [**Table B**](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/tableB_imdb)  
 
 The size of our candidate set C is **2098**.  
-- In [**this PDF**](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/stage3.pdf), the density computation is discussed.
+- In [**this PDF**](https://chen-xanadu.github.io/cs839-website/reports/stage3.pdf), we discussed the density computation.
 - Since no new blocking rules is added, the final candidate set remains unchanged.
-- Link to the set of 400 tuple pairs that we have sampled and manually labeled: [**sample400.csv**](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/sample400.csv)
-
+- Link to the set of 400 tuple pairs that are sampled and manually labeled: [**sample400.csv**](https://github.com/chen-xanadu/cs839-website/blob/master/stage3/sample400.csv)
+- Using [**the Jupyter notebook**](https://nbviewer.jupyter.org/github/chen-xanadu/cs839-website/blob/master/stage3/estimating_precision_recall.ipynb), the accuracy we obtained is
 ```
 Recall = [1.0 - 1.0]   
 Precision = [0.98 - 1.00]     
